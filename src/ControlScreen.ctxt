@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ControlScreen
+comment0.text=\r\n\ The\ control\ screen.\ Lists\ player\ controls\ and\ allows\ user\ to\ return\ to\ opening\ menu.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=
+comment1.target=ControlScreen()
+comment1.text=\r\n\ Constructor\ for\ the\ ControlScreen.\ Has\ a\ button\ to\ return\ to\ Menu\ screen.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Detects\ whether\ the\ return\ button\ has\ been\ clicked.\ If\ so,\ the\ simulation\ returns\ to\ the\ Menu\ screen.\r\n
+numComments=3

@@ -1,10 +1,10 @@
 #BlueJ class context
 comment0.target=Menu
-comment0.text=\r\n\ The\ opening\ menu\ screen.\ Options\ to\ play\ or\ exit.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment0.text=\r\n\ The\ opening\ menu\ screen.\ Options\ to\ play,\ exit,\ or\ view\ controls.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
 comment1.params=
 comment1.target=Menu()
 comment1.text=\r\n\ Constructor\ the\ Menu\ screen.\ Contains\ a\ 'play'\ and\ 'exit'\ button.\r\n
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\r\n\ Detects\ whether\ the\ exit\ or\ play\ button\ has\ been\ clicked.\ The\ exit\ button\ exits\ the\ program,\r\n\ and\ the\ play\ button\ takes\ the\ players\ to\ the\ CharacterSelection\ screen.\r\n
+comment2.text=\r\n\ Detects\ whether\ the\ exit,\ play,\ or\ control\ button\ has\ been\ clicked.\ The\ exit\ button\ exits\ the\ program,\r\n\ the\ play\ button\ takes\ the\ players\ to\ the\ CharacterSelection\ screen,\ and\ the\ control\ button\ takes\ the\r\n\ players\ to\ the\ ControlScreen.\r\n
 numComments=3
