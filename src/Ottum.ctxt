@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Ottum
+comment0.text=\r\n\ A\ Fighter\ with\ a\ special\ ability\ that\ uses\ Projectiles.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=startX\ startY\ playerNumber
+comment1.target=Ottum(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ special()
+comment2.text=\r\n\ Constructs\ a\ new\ Projectile\ and\ launches\ it.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+numComments=4

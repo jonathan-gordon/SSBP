@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=GameEntity
+comment0.text=\r\n\ An\ entity\ within\ the\ game.\ Includes\ fighters,\ obstacles,\ and\ projectiles.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=x\ y\ width\ height
+comment1.target=GameEntity(int,\ int,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ GameEntities.\ All\ GameEntities\ must\ have\ an\ x,\ y,\ width,\ and\ height.\r\n\ \r\n\ @param\ x,\ y,\ width,\ height\ \ \ the\ starting\ values\ for\ GameEntities\r\n
+comment2.params=
+comment2.target=double\ getXPosition()
+comment3.params=
+comment3.target=double\ getYPosition()
+comment4.params=x
+comment4.target=void\ setX(double)
+comment5.params=y
+comment5.target=void\ setY(double)
+comment6.params=
+comment6.target=int\ getWidth()
+comment7.params=
+comment7.target=int\ getHeight()
+comment8.params=
+comment8.target=java.lang.String\ getType()
+numComments=9

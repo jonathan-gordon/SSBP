@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Obstacle
+comment0.text=\r\n\ A\ representation\ of\ a\ wall,\ used\ in\ Trump's\ special\ ability.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=startX\ startY\ special
+comment1.target=Obstacle(int,\ int,\ boolean)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Decrements\ the\ Obstacle's\ timer\ by\ 1\ each\ tick.\ After\ 150\ ticks,\ it\ removes\ itself\ from\ the\ world.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Trump
+comment0.text=\r\n\ A\ Fighter\ with\ a\ special\ ability\ that\ uses\ obstacles.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=startX\ startY\ number
+comment1.target=Trump(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ special()
+comment2.text=\r\n\ Constructs\ a\ new\ Obstacle\ halfway\ between\ this\ player\ and\ the\ other\ player.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getType()
+numComments=4

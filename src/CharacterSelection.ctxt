@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=CharacterSelection
+comment0.text=\r\n\ The\ character\ selection\ screen.\ Contains\ buttons\ for\ fighters\ to\ select.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=
+comment1.target=CharacterSelection()
+comment1.text=\r\n\ Constructor\ for\ the\ CharacterSelection\ screen.\ Adds\ buttons\ for\ each\ fighter\ on\ each\ side\ of\ the\ screen,\r\n\ as\ well\ as\ a\ button\ to\ continue\ to\ the\ arena.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Detects\ when\ a\ fighter\ button\ has\ been\ clicked,\ and\ sets\ the\ button's\ image\ to\ its\ 'selected'\ state.\r\n\ When\ both\ players\ have\ selected\ a\ fighter,\ they\ can\ click\ the\ continue\ button\ to\ go\ to\ the\ arena.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getPlayer1Selection()
+comment4.params=
+comment4.target=java.lang.String\ getPlayer2Selection()
+numComments=5

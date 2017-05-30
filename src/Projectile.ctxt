@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Projectile
+comment0.text=\r\n\ A\ representation\ of\ a\ projectile,\ used\ in\ Mr.\ Ottum's\ special\ ability.\ Boom\ Java\!\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=startX\ startY\ owner\ direction
+comment1.target=Projectile(int,\ int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Moves\ the\ projectile\ left\ or\ right\ based\ on\ the\ current\ player\ direction\ and\ global\ Projectile\ speed.\r\n\ Also\ checks\ for\ collision\ with\ Obstacles.\r\n
+comment3.params=newSpeed
+comment3.target=void\ setSpeed(int)
+comment3.text=\r\n\ Sets\ the\ speed\ for\ all\ Projectiles\ to\ the\ specified\ speed.\ Static\ so\ Jeb's\ special\ ability\ can\ slow\r\n\ all\ Projectiles,\ not\ just\ this\ one\ Projectile\ object.\r\n
+comment4.params=
+comment4.target=int\ getSpeed()
+comment5.params=
+comment5.target=int\ getOwner()
+comment6.params=
+comment6.target=java.lang.String\ getDirection()
+comment7.params=
+comment7.target=java.lang.String\ getType()
+numComments=8

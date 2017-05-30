@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Arena
+comment0.text=\r\n\ The\ arena\ in\ which\ the\ players\ fight.\ Responsible\ for\ constructing\ the\ fighters\ and\ displaying\ their\ health.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=fighter1\ fighter2
+comment1.target=Arena(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ the\ arena.\ Takes\ the\ player\ selections\ in\ the\ CharacterSelection\ screen\ as\ parameters\r\n\ and\ uses\ them\ to\ construct\ the\ appropriate\ fighter.\ Also\ sets\ health\ bars\ to\ full.\r\n\ \r\n\ @param\ fighter1,\ fighter2\ \ \ \ The\ character\ selections\ made\ in\ the\ CharacterSelection\ screen.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Checks\ each\ player's\ health,\ as\ well\ as\ if\ they\ have\ switched\ sides.\r\n\ If\ the\ players\ have\ switched,\ their\ fighters\ change\ direction\ to\ face\ each\ other.\r\n
+comment3.params=
+comment3.target=void\ setHealthBars()
+comment3.text=\r\n\ Constructs\ the\ health\ bars\ for\ both\ players.\ The\ health\ bar\ is\ comprised\ of\ 50\ health\ 'blocks'\ in\r\n\ an\ array,\ which\ are\ removed\ when\ the\ player's\ health\ goes\ below\ the\ block's\ specified\ health\ number.\r\n
+comment4.params=
+comment4.target=void\ checkHealth()
+comment4.text=\r\n\ Checks\ if\ a\ player's\ health\ is\ less\ than\ the\ healthID\ of\ one\ of\ his\ HealthBarBlocks.\ If\ so,\ the\ block\r\n\ is\ removed\ from\ the\ health\ bar.\ Also\ checks\ if\ either\ player's\ health\ is\ <\=\ 0,\ in\ which\ case\ the\ game\ ends.\r\n
+comment5.params=winner
+comment5.target=void\ endGame(int)
+comment5.text=\r\n\ Ends\ the\ game\ and\ displays\ the\ winner.\r\n\ \r\n\ @param\ winner\ \ \ \ the\ number\ of\ the\ player\ who\ won.\r\n
+comment6.params=
+comment6.target=Fighter\ getPlayer1()
+comment7.params=
+comment7.target=Fighter\ getPlayer2()
+numComments=8

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Jeb
+comment0.text=\r\n\ A\ Fighter\ with\ a\ special\ ability\ that\ puts\ all\ actors\ into\ slow\ motion.\r\n\ \r\n\ @author\ Jonathan\ Gordon\ and\ Ben\ Bricken\r\n\ @version\ May\ 2017\r\n
+comment1.params=startX\ startY\ number
+comment1.target=Jeb(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Continually\ decrements\ Jeb's\ slowMoTimer.\ Once\ it\ reaches\ zero,\ Projectiles\ and\ Fighters\ return\ to\ their\r\n\ normal\ speed.\r\n
+comment3.params=
+comment3.target=void\ special()
+comment3.text=\r\n\ Sets\ the\ speed\ of\ Projectiles\ and\ Fighters\ to\ 1/3\ of\ their\ normal\ speed,\ for\ 150\ ticks\ of\ the\ simulation.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getType()
+numComments=5
